@@ -1,0 +1,119 @@
+﻿@model GalleryCafeWeb.Models.Customer
+@{
+    ViewBag.Title = "SignUp";
+}
+<div class="signup-container">
+    <h2>Customer SignUp</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal creative-signup-form">
+            <h4>Create a new account</h4>
+            <hr />
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @Html.ValidationSummary(true, "Please correct the errors and try again.")
+                </div>
+            }
+            <div class="form-group">
+                @Html.LabelFor(m => m.CusName, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.CusName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CusName)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.CusEmail, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.CusEmail, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CusEmail)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.CusUsername, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.CusUsername, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CusUsername)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.CusPasswordHash, "Password", new { @class = "control-label" })
+                @Html.PasswordFor(m => m.CusPasswordHash, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CusPasswordHash)
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sign Up" class="btn btn-primary creative-btn" />
+            </div>
+        </div>
+    }
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+ 
+.signup-container {
+    width: 100%;
+    max-width: 400px; /* Limit the width for better focus */
+    margin: 50px auto; /* Center the form */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.signup-container h2 {
+    text-align: center;
+    color: #333333; /* Darker text for headings */
+}
+
+.creative-signup-form h4 {
+    text-align: center;
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Spacing between form groups */
+}
+
+.control-label {
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px;
+    color: #555555; /* Dark grey for labels */
+}
+
+.form-control {
+    border: 1px solid #007bff; /* Border color matching the theme */
+    border-radius: 5px; /* Rounded corners for inputs */
+    transition: border-color 0.3s; /* Transition for focus effect */
+}
+
+.form-control:focus {
+    border-color: #0056b3; /* Darker border on focus */
+    box-shadow: 0 0 5px rgba(0, 91, 194, 0.5); /* Glow effect on focus */
+}
+
+.creative-btn {
+    width: 100%; /* Full width for buttons */
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for button */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+}
+
+.creative-btn:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.alert {
+    background-color: #f8d7da; /* Light red background for alerts */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Border matching the alert */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for alerts */
+}
+
+</style>

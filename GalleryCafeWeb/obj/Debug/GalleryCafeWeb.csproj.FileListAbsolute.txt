@@ -1,0 +1,503 @@
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Documents\.net\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Music\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.dll
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.xml
+C:\Users\HP\Desktop\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\kendo\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\prabath\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\prabath\New folder\New folder\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll.config
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\GalleryCafeWeb.pdb
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Owin.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\WebGrease.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\BouncyCastle.Cryptography.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\itextsharp.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.dll
+C:\Users\HP\Desktop\WAD\GalleryCafeWeb\GalleryCafeWeb\obj\Debug\GalleryCafeWeb.pdb

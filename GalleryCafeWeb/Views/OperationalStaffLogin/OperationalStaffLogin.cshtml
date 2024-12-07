@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "OperationalStaffLogin";
+}
+
+<!-- Operational Staff Login Section -->
+<section class="login-section">
+    <div class="login-container">
+        <h2>Operational Staff Login</h2>
+        <form action="/OperationalStaffLogin/check" method="post" class="login-form">
+            <div class="input-group">
+                <input type="text" name="uname" id="uname" required>
+                <label for="uname">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" name="psw" id="psw" required>
+                <label for="psw">Password</label>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+</section>
+

@@ -1,0 +1,104 @@
+﻿@model GalleryCafeWeb.Models.Reservation
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div class="reservation-details">
+    <!-- Wrap with this div -->
+    <h2>Reservation Details</h2>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+    <div>
+        <p><strong>Full Name:</strong> @Model.ResName</p>
+        <p><strong>Email:</strong> @Model.ResEmail</p>
+        <p><strong>Phone Number:</strong> @Model.ResPhoneNumber</p>
+        <p><strong>Reservation Date:</strong> @(string.IsNullOrEmpty(Model.ResDate) ? "N/A" : Model.ResDate)</p>
+        <p><strong>Reservation Time:</strong> @(string.IsNullOrEmpty(Model.ResTime) ? "N/A" : Model.ResTime)</p>
+        <p><strong>Table Type:</strong> @Model.ResMessage</p>
+    </div>
+    <div>
+        <a href="@Url.Action("DownloadPDF", new { id = Model.ReservationID })" class="btn btn-primary">Download PDF</a>
+        <button onclick="window.print()" class="btn btn-secondary">Print</button>
+        <a href="@Url.Action("Create", "Reservation")" class="btn btn-secondary">Back to Reservation</a> <!-- Back button -->
+    </div>
+</div>
+
+<style>
+   
+/* Container for the Reservation Details view */
+.reservation-details {
+    font-family: 'Lato', sans-serif; /* Font style */
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Style */
+.reservation-details h2 {
+    text-align: center;
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 30px;
+}
+
+/* Alert Styles */
+.reservation-details .alert {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Paragraph Styles */
+.reservation-details p {
+    font-size: 1.1em; /* Slightly larger text */
+    line-height: 1.5; /* Improved line height for readability */
+}
+
+/* Strong Text Style */
+.reservation-details strong {
+    color: #007bff; /* Primary color for labels */
+}
+
+/* Button Styles */
+.reservation-details .btn {
+    border-radius: 5px; /* Rounded button corners */
+    padding: 10px 15px; /* Button padding */
+    margin: 5px; /* Margin for spacing */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Primary Button Styles */
+.reservation-details .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text */
+}
+
+/* Primary Button Hover Effect */
+.reservation-details .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight lift effect */
+}
+
+/* Secondary Button Styles */
+.reservation-details .btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    color: #ffffff; /* White text */
+}
+
+/* Secondary Button Hover Effect */
+.reservation-details .btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight lift effect */
+}
+</style>

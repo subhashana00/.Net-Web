@@ -1,0 +1,38 @@
+﻿@model GalleryCafeWeb.Models.Customer
+
+@{
+    ViewBag.Title = "CreateCustomer";
+}
+
+
+
+<h2>Create Customer</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.CusName)
+            @Html.TextBoxFor(model => model.CusName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.CusEmail)
+            @Html.TextBoxFor(model => model.CusEmail, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.CusUsername)
+            @Html.TextBoxFor(model => model.CusUsername, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.CusPasswordHash)
+            @Html.TextBoxFor(model => model.CusPasswordHash, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </div>
+}
+

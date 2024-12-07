@@ -1,0 +1,15 @@
+﻿@model GalleryCafeWeb.Models.Customer
+@{
+    ViewBag.Title = "AccountDetails";
+}
+
+
+<h2>Account Details</h2>
+<p>
+    <strong>Username:</strong> @Model.CusUsername <br />
+    <strong>Email:</strong> @Model.CusEmail <br />
+    <strong>Name:</strong> @Model.CusName <br />
+    <!-- Add other customer details as needed -->
+</p>
+<a href="~/UserLoginView/UserLoginPage" class="btn btn-primary">Back to Home</a>
+

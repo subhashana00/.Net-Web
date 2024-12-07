@@ -1,0 +1,239 @@
+﻿
+@{
+    ViewBag.Title = "CMenu";
+}
+
+<!-- Menu Section -->
+<section id="menu-section-head" class="menu-section-head">
+    <div class="container">
+        <h2>Our Menu</h2>
+
+        <!-- Search Functionality -->
+        <div class="menu-search">
+            <input type="text" id="search" placeholder="Search by food name or cuisine (e.g., Chicken, Italian, Chinese)">
+            <button id="search-btn">Search</button>
+        </div>
+        <!-- Cuisine Category Buttons -->
+        <div class="menu-categories">
+            <button class="menu-btn active" data-cuisine="all">All</button>
+            <button class="menu-btn" data-cuisine="sri lankan">Sri Lankan</button>
+            <button class="menu-btn" data-cuisine="italian">Italian</button>
+            <button class="menu-btn" data-cuisine="chinese">Chinese</button>
+        </div>
+        <!-- Menu Items -->
+        <div class="menu-items">
+            <!-- Sri Lankan Foods -->
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Chicken Rice</h3>
+                <p>Portion: Large</p>
+                <p>Price: Rs.2500</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Kottu Roti</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.2200</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Hoppers (Appa)</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs.100</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Fish Ambul Thiyal</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.480</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Polos (Young Jackfruit Curry)</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.550</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Watalappam</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs.250</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Egg Curry</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.500</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Parippu (Lentil Curry)</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.250</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Kukul Mas Curry (Chicken Curry)</h3>
+                <p>Portion: Large</p>
+                <p>Price: Rs.880</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Lunu Miris with String Hoppers</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs.200</p>
+            </div>
+            <div class="menu-item" data-cuisine="sri lankan">
+                <h3>Fish Curry</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs.780</p>
+            </div>
+
+            <!-- Italian Foods -->
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 4,450.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Margherita Pizza</h3>
+                <p>Portion: Large</p>
+                <p>Price: Rs. 7,450.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Lasagna</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 6,550.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Risotto alla Milanese</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 7,450.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Fettuccine Alfredo</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 4,430.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Bruschetta</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 2,200.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Penne Arrabbiata</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 3,800.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Tiramisu</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 1,900.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Caprese Salad</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 2,400.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="italian">
+                <h3>Gnocchi</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 4,000.00</p>
+            </div>
+
+            <!-- Chinese Foods -->
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Green Tea</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 950.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Sweet and Sour Chicken</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 3,200.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Kung Pao Chicken</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 3,500.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Beef Chow Mein</h3>
+                <p>Portion: Large</p>
+                <p>Price: Rs. 3,700.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Spring Rolls</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 1,750.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Dim Sum</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 2,850.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Peking Duck</h3>
+                <p>Portion: Large</p>
+                <p>Price: Rs. 5,100.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Hot and Sour Soup</h3>
+                <p>Portion: Small</p>
+                <p>Price: Rs. 1,600.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Fried Rice</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 2,550.00</p>
+            </div>
+            <div class="menu-item" data-cuisine="chinese">
+                <h3>Szechuan Shrimp</h3>
+                <p>Portion: Medium</p>
+                <p>Price: Rs. 4,100.00</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    // Search functionality
+    document.getElementById('search-btn').addEventListener('click', function() {
+        const searchValue = document.getElementById('search').value.toLowerCase();
+        const items = document.querySelectorAll('.menu-item');
+
+        items.forEach(item => {
+            const itemName = item.querySelector('h3').textContent.toLowerCase();
+            const itemCuisine = item.getAttribute('data-cuisine').toLowerCase();
+
+            if (itemName.includes(searchValue) || itemCuisine.includes(searchValue)) {
+                item.style.display = 'block'; // Show matching items
+            } else {
+                item.style.display = 'none'; // Hide non-matching items
+            }
+        });
+    });
+
+    // Filter by cuisine buttons
+    const categoryButtons = document.querySelectorAll('.menu-btn');
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const selectedCuisine = this.getAttribute('data-cuisine');
+            const items = document.querySelectorAll('.menu-item');
+
+            // Remove active class from all buttons
+            categoryButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Filter menu items based on selected cuisine
+            items.forEach(item => {
+                const itemCuisine = item.getAttribute('data-cuisine');
+
+                if (selectedCuisine === 'all' || itemCuisine === selectedCuisine) {
+                    item.style.display = 'block'; // Show items that match the selected cuisine
+                } else {
+                    item.style.display = 'none'; // Hide items that don't match
+                }
+            });
+        });
+    });
+
+    // Show all items when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        const items = document.querySelectorAll('.menu-item');
+        items.forEach(item => {
+            item.style.display = 'block'; // Display all items initially
+        });
+    });
+</script>
+
+

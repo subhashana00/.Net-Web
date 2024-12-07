@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "CGallery";
+}
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Our Gallery</h1>
+        <p>Experience the ambiance and delicious dishes at our restaurant.</p>
+    </header>
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="gallery-container">
+            <!-- Gallery Items -->
+            <div class="gallery-item">
+                <img src="~/Images/side-view-chicken-meatballs-with-greens-ketchup-plate.jpg" alt="Delicious Dish 1" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="~/Images/top-view-beyti-kebab-served-with-ayran-pickles.jpg" alt="Ambiance 1" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="~/Images/top-view-table-full-delicious-food-composition.jpg" alt="Delicious Dish 2" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="~/Images/homemade-meal-cooked-poultry-fresh-vegetable-celebration-generated-by-ai.jpg" alt="Ambiance 2" loading="lazy">
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+    </section>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 GalleryCafe. All rights reserved.</p>
+    </footer>
+    <!-- Link to external JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+

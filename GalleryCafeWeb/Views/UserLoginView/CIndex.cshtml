@@ -1,0 +1,383 @@
+﻿
+@{
+    ViewBag.Title = "CIndex";
+}
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Gallery Cafe</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="~/UserLoginView/Index">Home</a></li>
+                <li><a href="~/UserLoginView/About">About</a></li>
+                <li><a href="~/UserLoginView/Menu">Menu</a></li>
+                <li><a href="~/UserLoginView/Reservation">Reservation</a></li>
+                <li><a href="~/UserLoginView/Gallery">Gallery</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="glyphicon glyphicon-user"></span> @Session["CustomerUsername"]
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="~/Customer/AccountDetails">Account Details</a></li>
+                        <li><a href="javascript:void(0);" onclick="confirmSignOut()">Sign Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script>
+    function confirmSignOut() {
+        if (confirm("Are you sure you want to sign out?")) {
+            window.location.href = '@Url.Action("SignOut", "Customer")'; // Redirect to SignOut action if confirmed
+        }
+    }
+</script>
+<!-- Title Section -->
+<section id="title-section" class="text-light">
+    <div class="container">
+        <p class="title-text1">Authentic Sri Lankan Cuisine</p>
+        <h1 class="title-heading">Gallery Café</h1>
+        <p class="title-text">Experience the finest dining with a touch of elegance.</p>
+    </div>
+</section>
+<!-- Information Section -->
+<section id="info-section" class="info-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="~/Images/about-4.jpg" alt="Gallery Café" class="img-fluid animated-img">
+            </div>
+            <div class="col-md-6">
+                <h2>Why Gallery Café?</h2>
+                <p>Your favorite place to relax and enjoy gourmet food.</p>
+                <a href="#" class="btn btn-primary" id="button1">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="promotions-section">
+    <div class="container">
+        <div class="card-grid">
+            <div class="card">
+                <div class="card__image">
+                    <img src="~/Images/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg" alt="Promo 1" class="img-fluid">
+                </div>
+                <div class="card__content">
+                    <h5 class="card-title">Special Offer 1</h5>
+                    <p class="card-text">Details of the offer.</p>
+                    <p class="card-text"><strong>$30</strong></p>
+                    <a href="javascript:void(0);" class="btn btn-primary" onclick="handlePreOrder('Special Offer 1', 30)">Pre Order</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="~/Images/pizza-pizza-filled-with-tomatoes-salami-olives.jpg" alt="Promo 2" class="img-fluid">
+                </div>
+                <div class="card__content">
+                    <h5 class="card-title">Special Offer 2</h5>
+                    <p class="card-text">Details of the offer.</p>
+                    <p class="card-text"><strong>$30</strong></p>
+                    <a href="javascript:void(0);" class="btn btn-primary" onclick="handlePreOrder('Special Offer 2', 30)">Pre Order</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="~/Images/side-view-chicken-meatballs-with-greens-ketchup-plate.jpg" alt="Promo 3" class="img-fluid">
+                </div>
+                <div class="card__content">
+                    <h5 class="card-title">Special Offer 3</h5>
+                    <p class="card-text">Details of the offer.</p>
+                    <p class="card-text"><strong>$30</strong></p>
+                    <a href="javascript:void(0);" class="btn btn-primary" onclick="handlePreOrder('Special Offer 3', 30)">Pre Order</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pre-Order Section -->
+<section id="preOrderSection" style="display:none;">
+    <h2>Pre-Order Item</h2>
+    <p id="itemName">Menu Item Name</p>
+    <p id="itemPrice">Price: $<span id="itemPriceValue">0.00</span></p>
+    <div>
+        <button onclick="changeQuantity(-1)">-</button>
+        <span id="quantity">1</span>
+        <button onclick="changeQuantity(1)">+</button>
+    </div>
+    <p>Total: $<span id="totalPrice">0.00</span></p>
+    <button onclick="purchase()">Purchase</button>
+    <div id="downloadLinkContainer"></div> <!-- Place for download link -->
+</section>
+<script>
+    const orderItems = [];
+
+    function handlePreOrder(itemName, itemPrice) {
+        document.getElementById('preOrderSection').style.display = 'block';
+        document.getElementById('itemName').innerText = itemName;
+        document.getElementById('itemPriceValue').innerText = itemPrice;
+        document.getElementById('totalPrice').innerText = itemPrice.toFixed(2);
+        document.getElementById('quantity').innerText = 1;
+    }
+
+    function purchase() {
+        const itemName = document.getElementById("itemName").innerText;
+        const quantity = parseInt(document.getElementById("quantity").innerText);
+        const itemPrice = parseFloat(document.getElementById("itemPriceValue").innerText);
+
+        // Add item to orderItems array
+        orderItems.push({
+            MenuItem: itemName,
+            Quantity: quantity,
+            Price: itemPrice
+        });
+
+        // Send all order items to the server
+        $.ajax({
+            type: "POST",
+            url: "/Order/PurchaseOrder", // Ensure the URL matches your route
+            data: {
+                orders: JSON.stringify(orderItems)
+            },
+            success: function (response) {
+                if (response.success) {
+                    $("#downloadLinkContainer").html('<a href="/Order/GeneratePDF?orderId=' + response.orderId + '">Download Order Confirmation</a>');
+                    alert(response.message); // Show success message
+                } else {
+                    alert(response.message); // Display any error message
+                }
+            },
+            error: function (xhr, status, error) {
+                alert("An error occurred: " + error); // Handle AJAX errors
+            }
+        });
+    }
+
+    function changeQuantity(amount) {
+        const quantityElement = document.getElementById('quantity');
+        let quantity = parseInt(quantityElement.innerText) + amount;
+        if (quantity < 1) quantity = 1; // Prevent negative quantity
+        quantityElement.innerText = quantity;
+        const pricePerItem = parseFloat(document.getElementById('itemPriceValue').innerText);
+        document.getElementById('totalPrice').innerText = (pricePerItem * quantity).toFixed(2);
+    }
+</script>
+
+<!-- Menu Section -->
+<section id="menu-section" class="text-center" style="background-image: url('../Images/golden-cutlery-with-textile-plate-dark-background-top-view.jpg');">
+    <div class="container">
+        <h5 class="menu-heading">Discover Our</h5>
+        <h2 class="menu-heading">Mouth Watering Menu</h2>
+        <ul class="menu-list">
+            <li class="menu-list-item">
+                <div class="menu-item-content">
+                    <span class="menu-item-name">Grilled Chicken Salad</span>
+                    <span class="menu-item-description">A fresh and healthy salad with grilled chicken.</span>
+                </div>
+                <span class="menu-item-price">$12</span>
+            </li>
+            <li class="menu-list-item">
+                <div class="menu-item-content">
+                    <span class="menu-item-name">Beef Burger</span>
+                    <span class="menu-item-description">Juicy beef burger with all the fixings.</span>
+                </div>
+                <span class="menu-item-price">$15</span>
+            </li>
+            <li class="menu-list-item">
+                <div class="menu-item-content">
+                    <span class="menu-item-name">Margherita Pizza</span>
+                    <span class="menu-item-description">Classic pizza with tomatoes, mozzarella, and basil.</span>
+                </div>
+                <span class="menu-item-price">$10</span>
+            </li>
+            <li class="menu-list-item">
+                <div class="menu-item-content">
+                    <span class="menu-item-name">Pasta Carbonara</span>
+                    <span class="menu-item-description">Creamy pasta with pancetta and Parmesan cheese.</span>
+                </div>
+                <span class="menu-item-price">$13</span>
+            </li>
+            <li class="menu-list-item">
+                <div class="menu-item-content">
+                    <span class="menu-item-name">Chocolate Lava Cake</span>
+                    <span class="menu-item-description">Delicious molten chocolate cake with a warm center.</span>
+                </div>
+                <span class="menu-item-price">$8</span>
+            </li>
+        </ul>
+        <a href="~/Home/Menu" class="btn btn-primary menu-btn" id="button1">Check Full Menu</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: contact@gallerycafe.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="~/Home/Index">Home</a></li>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Menu">Menu</a></li>
+                    <li><a href="~/Home/Gallery">Gallery</a></li>
+                    <li><a href="~/Home/Reservation">Reservation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Opening Hours</h5>
+                <p>Monday - Friday: 10am - 10pm</p>
+                <p>Saturday - Sunday: 9am - 11pm</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>&copy; 2024 Gallery Cafe. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    /* Pre-Order Section Styles */
+    #preOrderSection {
+        background-color: #f8f9fa; /* Light background */
+        border: 1px solid #ced4da; /* Border around the section */
+        border-radius: 8px; /* Rounded corners */
+        padding: 20px; /* Inner padding */
+        max-width: 400px; /* Maximum width */
+        margin: 20px auto; /* Centering the section */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+        #preOrderSection h2 {
+            font-family: "Lato", sans-serif; /* Font for the heading */
+            color: #343a40; /* Dark text color */
+            margin-bottom: 15px; /* Spacing below the heading */
+        }
+
+        #preOrderSection p {
+            font-family: "Lato", sans-serif; /* Font for paragraphs */
+            color: #495057; /* Slightly lighter text color */
+            margin: 5px 0; /* Vertical spacing */
+        }
+
+        #preOrderSection div {
+            display: flex; /* Flexbox for alignment */
+            align-items: center; /* Centering items vertically */
+            margin: 15px 0; /* Spacing around quantity controls */
+        }
+
+        #preOrderSection button {
+            background-color: #007bff; /* Primary button color */
+            color: white; /* Button text color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 8px 12px; /* Inner padding for buttons */
+            cursor: pointer; /* Pointer on hover */
+            margin: 0 5px; /* Spacing between buttons */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+            #preOrderSection button:hover {
+                background-color: #0056b3; /* Darker color on hover */
+            }
+
+        #preOrderSection #quantity {
+            margin: 0 10px; /* Spacing around quantity display */
+            font-weight: bold; /* Bold for visibility */
+            font-size: 18px; /* Larger font size */
+        }
+
+        #preOrderSection #totalPrice {
+            font-weight: bold; /* Bold for total price */
+            color: #28a745; /* Green color for total */
+        }
+
+    /* Reservation Section */
+
+    /* Section Styles */
+    .ttable-availability-section {
+        padding: 80px 0;
+        background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        text-align: center;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .section-ttitle {
+        font-size: 42px;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Table Cards Container */
+    .ttables {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    /* Table Card Styles */
+    .ttable-card {
+        background: linear-gradient(145deg, #fff5e4, #ffe5d1);
+        border-radius: 20px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        padding: 40px 20px;
+        width: 280px;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        cursor: pointer;
+        color: #333;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .ttable-card::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transition: 0.5s;
+        }
+
+        .ttable-card:hover::before {
+            top: -80px;
+            left: -80px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .ttable-card:hover {
+            transform: translateY(-15px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+            .ttable-card:hover .ttable-info h3 {
+                color: #ff6b6b;
+            }
+</style>

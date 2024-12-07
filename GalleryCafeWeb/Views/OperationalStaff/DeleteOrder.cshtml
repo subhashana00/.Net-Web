@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "DeleteOrder";
+}
+
+@model GalleryCafeWeb.Models.Order
+<h2>Delete Order</h2>
+<p>Are you sure you want to delete this order?</p>
+<dl class="dl-horizontal">
+    <dt>Order ID:</dt>
+    <dd>@Model.OrderID</dd>
+    <dt>Customer:</dt>
+    <dd>@Model.Customer.Name</dd>
+    <dt>Total Amount:</dt>
+    <dd>@Model.TotalAmount</dd>
+</dl>
+@using (Html.BeginForm())
+{
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("ViewOrders")" class="btn btn-default">Cancel</a>
+}
+

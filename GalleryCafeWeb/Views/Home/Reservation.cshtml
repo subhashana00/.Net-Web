@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Reservation";
+}
+<section id="reservation-section">
+    <div class="container">
+        <h5 class="reservation-heading">Reservation</h5>
+        <h2 class="reservation-heading">Book a Table</h2>
+
+        <form class="reservation-form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Your Phone Number">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="time">Time</label>
+                    <input type="time" class="form-control" id="time">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="message">Table Type</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Table with capacity"></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="~/SignUp/SignUp" class="btn btn-primary" id="button1">Book Now</a>
+            </div>
+        </form>
+
+    </div>
+</section>
+

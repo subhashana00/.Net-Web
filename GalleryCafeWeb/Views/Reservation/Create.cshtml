@@ -1,0 +1,201 @@
+﻿@model GalleryCafeWeb.Models.Reservation
+@{
+    ViewBag.Title = "Create";
+}
+
+    <!-- Reservation Section -->
+    <section id="ttable-availability" class="ttable-availability-section">
+        <div class="container">
+            <h2 class="section-ttitle">Table Availability</h2>
+            <div class="ttables">
+                <!-- Table 1 -->
+                <div class="ttable-card">
+                    <div class="ttable-info">
+                        <h3>Outdoor Table</h3>
+                        <p>Capacity: 4 People</p>
+                    </div>
+                </div>
+                <!-- Table 2 -->
+                <div class="ttable-card">
+                    <div class="ttable-info">
+                        <h3>Family Table</h3>
+                        <p>Capacity: 6 People</p>
+                    </div>
+                </div>
+                <!-- Table 3 -->
+                <div class="ttable-card">
+                    <div class="ttable-info">
+                        <h3>VIP Table</h3>
+                        <p>Capacity: 8 People</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reservation-section">
+        <div class="container">
+            <h5 class="reservation-heading">Reservation</h5>
+            <h2 class="reservation-heading">Book a Table</h2>
+           
+
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+                @using (Html.BeginForm("Create", "Reservation", FormMethod.Post))
+            {
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResName", "Full Name")
+                            @Html.TextBoxFor(m => m.ResName, new { @class = "form-control", placeholder = "Your Name" })
+                            @Html.ValidationMessageFor(m => m.ResName)
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResEmail", "Email Address")
+                            @Html.TextBoxFor(m => m.ResEmail, new { @class = "form-control", placeholder = "example@gmail.com" })
+                            @Html.ValidationMessageFor(m => m.ResEmail)
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResPhoneNumber", "Phone Number")
+                            @Html.TextBoxFor(m => m.ResPhoneNumber, new { @class = "form-control", placeholder = "Your Phone Number" })
+                            @Html.ValidationMessageFor(m => m.ResPhoneNumber)
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResDate", "Reservation Date")
+                            @Html.TextBoxFor(m => m.ResDate, new { @class = "form-control", @type = "date" })
+                            @Html.ValidationMessageFor(m => m.ResDate)
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResTime", "Reservation Time")
+                            @Html.TextBoxFor(m => m.ResTime, new { @class = "form-control", @type = "time" })
+                            @Html.ValidationMessageFor(m => m.ResTime)
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.Label("ResMessage", "Table Type")
+                            @Html.TextAreaFor(m => m.ResMessage, new { @class = "form-control", rows = "3", placeholder = "Table Type" })
+                            @Html.ValidationMessageFor(m => m.ResMessage)
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Book Now</button>
+                    </div>
+                }
+            </div>
+    </section>
+    <style>
+        /* Reservation Section Styles */
+        .form-container {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        /* Section Styles */
+        .ttable-availability-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            text-align: center;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .section-ttitle {
+            font-size: 42px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 60px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Table Cards Container */
+        .ttables {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        /* Table Card Styles */
+        .ttable-card {
+            background: linear-gradient(145deg, #fff5e4, #ffe5d1);
+            border-radius: 20px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+            padding: 40px 20px;
+            width: 280px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            cursor: pointer;
+            color: #333;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .ttable-card::before {
+                content: "";
+                position: absolute;
+                top: -50px;
+                left: -50px;
+                width: 150px;
+                height: 150px;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 50%;
+                transition: 0.5s;
+            }
+
+            .ttable-card:hover::before {
+                top: -80px;
+                left: -80px;
+                width: 200px;
+                height: 200px;
+            }
+
+            .ttable-card:hover {
+                transform: translateY(-15px) scale(1.05);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            }
+
+                .ttable-card:hover .ttable-info h3 {
+                    color: #ff6b6b;
+                }
+
+        /* Reservation Form Styles */
+        .reservation-heading {
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .form-row {
+            margin-bottom: 15px;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+

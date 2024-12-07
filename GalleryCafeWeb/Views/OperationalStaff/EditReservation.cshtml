@@ -1,0 +1,47 @@
+﻿
+@model GalleryCafeWeb.Models.Reservation
+@{
+    ViewBag.Title = "EditReservation";
+}
+
+
+<h2>Edit Reservation</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.ReservationID) // This line ensures the ID is included
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResName)
+        @Html.TextBoxFor(model => model.ResName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResEmail)
+        @Html.TextBoxFor(model => model.ResEmail, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResPhoneNumber)
+        @Html.TextBoxFor(model => model.ResPhoneNumber, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResDate)
+        @Html.TextBoxFor(model => model.ResDate, new { @class = "form-control", @type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResTime)
+        @Html.TextBoxFor(model => model.ResTime, new { @class = "form-control", @type = "time" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ResMessage)
+        @Html.TextAreaFor(model => model.ResMessage, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a href="@Url.Action("ManageReservations", "OperationalStaff")" class="btn btn-secondary">Back</a> <!-- Back button -->
+}

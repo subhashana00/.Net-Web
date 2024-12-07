@@ -1,0 +1,36 @@
+﻿@model IEnumerable<GalleryCafeWeb.Models.Order>
+@{
+    ViewBag.Title = "ManageOrders";
+}
+
+
+<h2>Manage Orders</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Order Date</th>
+            <th>Total Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderID</td>
+                <td>@order.Customer?.Name</td>
+                <td>@order.OrderDate?.ToString("MM/dd/yyyy")</td>
+                <td>@order.TotalAmount</td>
+                <td>@order.Status</td>
+                <td>
+                    <a href="@Url.Action("EditOrder", new { id = order.OrderID })" class="btn btn-primary">Edit</a>
+                    <a href="@Url.Action("DeleteOrder", new { id = order.OrderID })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

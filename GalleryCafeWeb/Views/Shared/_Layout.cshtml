@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalleryCafe Web</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/Gallery.css" rel="stylesheet" />
+    <link href="~/Content/adminlogin.css" rel="stylesheet" />
+    <link href="~/Content/Clogin.css" rel="stylesheet" />
+    <link href="~/Content/signup.css" rel="stylesheet" />
+    <link href="~/Content/menu.css" rel="stylesheet" />
+   
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/Gallery.js"></script>
+    <script src="~/Scripts/navactive.js"></script>
+    <script src="~/Scripts/adminlogin.js"></script>
+    <!-- Include JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="~/Scripts/JavaScript.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    
+
+</head>
+<body>
+@* Check if the user is not an admin before rendering the navbar *@
+@if (Session["IsAdmin"] == null && Session["IsOStaff"] == null)
+{
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Gallery Cafe</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="~/Home/Index">Home</a></li>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Menu">Menu</a></li>
+                    <li><a href="~/Home/Gallery">Gallery</a></li>
+                    <li><a href="~/Home/Reservation">Reservation</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/AdminAccount/AdminLogin">Admin</a></li>
+                            <li><a href="~/OperationalStaffLogin/OperationalStaffLogin">Operational Staff</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="~/Customer/SignUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="~/Customer/Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+}
+    
+        @RenderBody()
+        @*<hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>*@
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<section id="info-section" class="info-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="~/Images/about-4.jpg" alt="Gallery Café" class="img-fluid animated-img">
+            </div>
+            <div class="col-md-6">
+                <h2>Why Gallery Café?</h2>
+                <div class="about-section">
+                    <p>
+                        The Gallery Café, a renowned restaurant located in the heart of Colombo, is known for its exceptional dining experience, offering a blend of traditional and modern cuisines. As part of their continuous efforts to enhance customer satisfaction and streamline their business operations, The Gallery Café is embracing the latest technological advancements to take their service to the next level.
+
+                        In a bid to improve convenience and customer engagement, the management has initiated the development of an interactive, database-driven web application. This modern platform will offer a range of features designed to elevate the customer experience, including:
+
+                        <strong>Seamless Reservations:</strong> Customers can easily book tables online, streamlining the process for both diners and staff.<br>
+                        <strong>Effortless Cuisine Orders:</strong> From the comfort of their homes, customers will be able to place orders for delivery or pickup, making dining with The Gallery Café more accessible.<br>
+                        <strong>Enhanced Communication:</strong> The platform will enable effective communication between the restaurant and its customers, ensuring they stay informed about the latest promotions, events, and special offers.<br>
+                        <strong>Efficient Business Operations:</strong> With improved reservation and booking systems, The Gallery Café aims to optimize its internal operations, offering a more organized and streamlined dining experience.
+
+                        As the newly appointed Web Development Officer, <em>you have been tasked with leading the design and development</em> of this cutting-edge web application. This website will not only focus on providing customers with a user-friendly, interactive experience but also on ensuring it integrates smoothly with the restaurant’s operations to meet the dynamic needs of modern dining.
+
+                        Stay tuned as we prepare to launch a whole new way of dining at The Gallery Café!
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    .about-section p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #F9E400;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-section p strong {
+    color: #F9E400;
+    font-weight: 700;
+}
+
+.about-section p em {
+    color: #666;
+    font-style: italic;
+}
+
+.about-section p::before {
+    content: "❝";
+    font-size: 40px;
+    color: #F9E400;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -20px;
+}
+
+.about-section p::after {
+    content: "❞";
+    font-size: 40px;
+    color: #F9E400;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+</style>
+
